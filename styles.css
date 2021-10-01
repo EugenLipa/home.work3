@@ -1,0 +1,140 @@
+a{
+    color:black;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+html{
+    min-height: 100%;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    font-family: monospace;
+}
+
+img{
+    border: 0;
+}
+h1 {
+    width:center;
+    color: white;
+}
+
+h2 {
+    color: white;
+    width:center;
+}
+
+table {
+    width: 100%; /* Ширина таблицы */
+    background: #374d50b9; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+    font-family: monospace;
+    border-spacing: 5px; /* Расстояние между ячейками */
+    border-radius: -25px;
+
+   }
+   td, th {
+       
+    background: #374d5005; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 8px;
+   }
+   
+   footer {
+    background: #b9c6c7a8;
+    margin-top: auto;
+   }
+
+   summary {
+    color: white;
+   }
+   
+   ul{
+       margin-top: 450px;
+    margin: 5px 0 0 5px;
+    height: 50px;
+    display: line;
+   }
+
+.img img{
+    max-width: 430px;
+    height: auto;
+    border-radius: 65px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0 0 5px;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex: none;
+    align-items: center;
+    background: #c9d6d8b9;
+    width: page;
+    height: 50px;
+}
+
+.page {
+    padding-left: 15px;
+}
+
+.background {
+    background-image: url(img/bg.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 165vh;
+    width: 100%;
+}
+
+.other{
+    font-family: monospace;
+    color: white;
+}
+
+.tabl{
+    font-family: monospace;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.tabl-text{
+    padding-left: 800px;
+    font-family: monospace;
+    color: white;
+}
+.properties-text{
+    color: white;
+    
+}
+.nav-item{
+    padding-left:  590px;
+    font-family: monospace;
+    color: white;
+    margin: center;
+    
+}
+
+.footer{
+    background: #374d50b9;
+    width: 100%;
+    max-width: 960px;
+    min-width: 460px;
+    color: #374d5005;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
